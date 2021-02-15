@@ -1,1 +1,1 @@
-# embedding-images-and-video
+# Embedding Images and Video
