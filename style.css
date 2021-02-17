@@ -1,0 +1,245 @@
+body {
+    background-color: #181818;
+	color: white;
+}
+
+/* header  */
+.main-header {
+    position: fixed;
+	top: 0;
+	z-index: 1;
+	background-color: #202020;
+	width: 100%;
+	padding: 13px;
+}
+
+.main-header > div {
+    display: inline-block;
+}
+
+.main-header  {
+    text-align: center;
+}
+
+.lefty {
+	position: absolute;
+	left: 10px;
+	color: lightblue;
+}
+
+.lefty  > i{
+	margin-left: 10px;
+	margin-right: 25px;
+	font-size: 35px;
+}
+
+.lefty  > div{
+	display: inline-block;
+}
+
+.lefty  > div > i{
+	font-size: 35px;
+}
+
+.centry  > i{
+	margin-left: 0;
+	font-size: 20px;
+}
+
+.centry  > input {
+	margin-right: 0;
+	border: none;
+	background-color: #121212;
+	color: lightgrey;
+	width: 450px;
+	height: 33px;
+}
+
+.righty {
+    position: absolute;
+	right: 55px;
+}
+
+.righty > i {
+	margin-right: 10px;
+	font-size: 20px;
+}
+
+.search-btn {
+	height: 35px;
+	width: 55px;
+	background-color: #323232;
+	border: none;
+	color: lightgrey;
+	margin-left: 0;
+}
+
+.signin-btn {
+	height: 35px;
+	width: 75px;
+	background-color: #202020;
+	border: 1px solid lightblue;
+	color: lightblue;
+}
+ 
+ 
+/*   */
+.container {
+    display: grid;
+	grid-template-areas: 
+		' main main '
+		' section aside ';
+	row-gap: 25px;
+	margin-top: 60px;
+}
+
+/*  sections of container */
+.main-section {
+   padding-left: 125px;
+   padding-right: 25px;
+   min-width: 500px;
+}
+
+.main-section > section {
+   margin-top: 15px;
+}
+
+/*  main */
+.video {
+    height: 415px;
+	grid-area: main;
+}
+
+/* header of main section */
+.video-header  {
+	border-bottom: 1px solid lightgrey;
+}
+
+.video-header > div  {
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+
+.video-header > div > span {
+	color: lightgrey;
+}
+
+.video-icons {
+    display: inline-block;
+	float: right;
+}
+
+.video-icons > i {
+    margin-right: 10px;
+	color: lightgrey;
+
+}
+
+
+/* section info */
+.info {
+	padding-bottom: 10px;
+	border-bottom: 1px solid lightgrey;
+}
+
+
+.info > div {
+	margin-left: 75px;
+}
+
+.info > img {
+	float: left;
+}
+
+.just-color {
+	color: lightgrey;
+}
+
+.subscribe  {
+	float: right;
+	background-color: lightblue;
+	border: none;
+	padding: 10px;
+}
+
+/* section add comment */
+.add-comment  {
+	position: relative;
+}
+
+.add-comment > input {
+	position: absolute;
+	width: 90%;
+	padding: 5px;
+	margin-left: 20px;
+	top: 55px;
+	border: none;
+	border-bottom: 1px solid lightgrey;
+	background-color: #181818;
+	color: white;
+}
+
+.add-comment > div {
+	padding-bottom: 15px;
+	padding-top: 15px;
+}
+
+.add-comment > div > i{
+	margin-left: 15px;
+	color: lightgrey;
+}
+
+
+/* section comments */
+.comments > div {
+	margin-bottom: 25px;
+}
+
+.comments > div > div {
+	margin-left: 75px;
+}
+
+.comments > div > img {
+	float: left;
+}
+
+.comments > div > div > i {
+	color: lightgrey;
+	margin: 10px 5px;
+}
+
+
+
+
+
+/* user avataras  */
+.avatar {
+    border-radius: 50%;
+}
+
+
+/* aside  */
+aside {
+    padding-right: 125px;
+}
+
+.sug-image {
+    width: 170px;
+	height: 100px;
+	float: left;
+}
+
+.sug-info {
+   display: inline-block;
+   padding-left: 5px;
+   height: 100px;
+}
+
+.sug-info > h6 {
+   color: lightgrey;
+
+}
+
+
+
+
